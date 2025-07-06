@@ -6,8 +6,8 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "sqlite"
+  url      = "file:./dev.db"
 }
 
 model User {
@@ -70,6 +70,6 @@ model Order {
   @@map("orders")
 }
 
-// Note: PostgreSQL supports enums, but we'll keep strings for simplicity
+// Note: SQLite doesn't support enums, so we use strings with validation in the app
 // UserRole: "ADMIN" | "CUSTOMER"
 // ImportStatus: "PENDING" | "PROCESSING" | "COMPLETED" | "REJECTED" 

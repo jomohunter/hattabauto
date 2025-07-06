@@ -35,7 +35,8 @@ app.use(cors({
         'https://your-netlify-domain.com',
         'https://hattabauto.netlify.app',
         'https://hattabauto.com',
-        'https://hattabauto.vercel.app'
+        'https://hattabauto.vercel.app',
+        'https://hattabauto-production.up.railway.app'
       ]
     : ['http://localhost:3000', 'http://localhost:3001'],
   credentials: true
