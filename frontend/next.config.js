@@ -1,15 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',
   images: {
-    domains: ['localhost'],
-    remotePatterns: [
-      {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '5000',
-        pathname: '/uploads/**',
-      },
-    ],
+    domains: ['localhost', 'your-railway-domain.railway.app'],
+    unoptimized: true
+  },
+  experimental: {
+    outputFileTracingRoot: undefined,
   },
   async headers() {
     return [

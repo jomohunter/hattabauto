@@ -30,7 +30,13 @@ app.use(helmet({
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-domain.com'] // Replace with your actual domain
+    ? [
+        'https://your-netlify-domain.netlify.app',
+        'https://your-netlify-domain.com',
+        'https://hattabauto.netlify.app',
+        'https://hattabauto.com',
+        'https://hattabauto.vercel.app'
+      ]
     : ['http://localhost:3000', 'http://localhost:3001'],
   credentials: true
 }));
