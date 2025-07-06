@@ -8,7 +8,7 @@ import { setLocale, getCurrentLocale } from '@/i18n';
 interface LanguageContextType {
   currentLocale: Locale;
   setLocale: (locale: Locale) => void;
-  availableLocales: Locale[];
+  availableLocales: readonly Locale[];
   getLocaleName: (locale: Locale) => string;
   direction: 'ltr' | 'rtl';
 }

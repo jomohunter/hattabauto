@@ -15,7 +15,7 @@ export const authenticateToken = (
   }
 
   try {
-    const payload = jwt.verify(token, process.env.JWT_SECRET!) as JWTPayload;
+    const payload = jwt.verify(token, process.env.JWT_SECRET || 'default-secret-key') as JWTPayload;
     req.user = payload;
     next();
   } catch (error) {

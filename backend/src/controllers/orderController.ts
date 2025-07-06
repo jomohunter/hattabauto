@@ -1,8 +1,6 @@
 import { Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
 import { CreateOrderDTO } from '../types';
-
-const prisma = new PrismaClient();
+import prisma from '../config/database';
 
 export const createOrder = async (req: Request, res: Response) => {
   try {

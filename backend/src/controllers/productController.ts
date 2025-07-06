@@ -125,8 +125,8 @@ export const createProduct = async (req: AuthenticatedRequest, res: Response) =>
 
     const data: any = {
       ...productData,
-      quantity: productData.quantity ? parseInt(productData.quantity as any) : 0,
-      price: productData.price ? parseFloat(productData.price as any) : 0,
+      quantity: productData.quantity ? parseInt(productData.quantity.toString()) : 0,
+      price: productData.price ? parseFloat(productData.price.toString()) : 0,
       isActive: true
     };
 

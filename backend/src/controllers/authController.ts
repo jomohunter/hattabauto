@@ -29,7 +29,7 @@ export const login = async (req: Request, res: Response) => {
         email: user.email,
         role: user.role
       },
-      process.env.JWT_SECRET,
+      process.env.JWT_SECRET || 'default-secret-key',
       { expiresIn: process.env.JWT_EXPIRES_IN || '7d' }
     );
 
@@ -49,8 +49,8 @@ export const login = async (req: Request, res: Response) => {
 
 export const createInitialAdmin = async () => {
   try {
-    const adminEmail = process.env.ADMIN_EMAIL!;
-    const adminPassword = process.env.ADMIN_PASSWORD!;
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@hattabauto.com';
+    const adminPassword = process.env.ADMIN_PASSWORD || 'AdminPass123!';
 
     // Check if admin already exists
     const existingAdmin = await prisma.user.findUnique({
