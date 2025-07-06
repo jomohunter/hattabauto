@@ -1,0 +1,235 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "importRequest": "طلب استيراد",
+    "search": "البحث عن قطع السيارات...",
+    "adminPanel": "لوحة الإدارة",
+    "logout": "تسجيل الخروج"
+  },
+  "footer": {
+    "tagline": "شريكك الموثوق لاستيراد قطع السيارات عالية الجودة. نتخصص في توريد المكونات الأصلية للسيارات من جميع أنحاء العالم، مما يضمن حصول سيارتك على القطع التي تستحقها.",
+    "quickLinks": "روابط سريعة",
+    "contact": "اتصل بنا",
+    "email": "البريد الإلكتروني:",
+    "phone": "الهاتف:",
+    "copyright": "© 2025 هتاب أوتو. جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة"
+  },
+  "home": {
+    "hero": {
+      "title": "قطع السيارات المميزة",
+      "subtitle": "متخصصو الاستيراد",
+      "description": "شريكك الموثوق لاستيراد المكونات عالية الجودة للسيارات من جميع أنحاء العالم. نضمن حصول سيارتك على القطع الأصلية التي تستحقها.",
+      "browseProducts": "تصفح المنتجات",
+      "requestImport": "طلب استيراد"
+    },
+    "features": {
+      "title": "لماذا تختارنا",
+      "subtitle": "قطع عالية الجودة، خدمة موثوقة",
+      "authenticParts": {
+        "title": "قطع أصلية",
+        "description": "جميع قطعنا مصدرة مباشرة من المصنعين والتجار المعتمدين لضمان الأصالة."
+      },
+      "fastImport": {
+        "title": "استيراد سريع",
+        "description": "معالجة وشحن سريع لتوصيل قطعك إليك في أسرع وقت ممكن."
+      },
+      "expertSupport": {
+        "title": "دعم خبراء",
+        "description": "فريقنا من خبراء السيارات هنا لمساعدتك في العثور على القطع المناسبة لسيارتك."
+      }
+    },
+    "featuredProducts": {
+      "title": "المنتجات المميزة",
+      "subtitle": "تحقق من قطع السيارات والمكونات الأكثر شعبية لدينا",
+      "viewAllProducts": "عرض جميع المنتجات",
+      "noProducts": "لا توجد منتجات متاحة في الوقت الحالي.",
+      "requestSpecificPart": "طلب قطعة محددة"
+    },
+    "cta": {
+      "title": "لا تجد ما تبحث عنه؟",
+      "description": "قدم طلب استيراد وسنقوم بتوريد قطع السيارات المحددة التي تحتاجها من شبكتنا العالمية من الموردين.",
+      "submitRequest": "تقديم طلب استيراد"
+    }
+  },
+  "products": {
+    "title": "قطع ومكونات السيارات",
+    "subtitle": "تصفح مجموعتنا الواسعة من قطع السيارات",
+    "filters": "المرشحات",
+    "clearAll": "مسح الكل",
+    "categories": "الفئات",
+    "searchResults": "عرض {count} من {total} منتج",
+    "searchFor": "لـ \"{query}\"",
+    "searchIn": "في \"{category}\"",
+    "loading": "جاري التحميل...",
+    "noProductsFound": "لم يتم العثور على منتجات",
+    "noProductsDescription": "حاول تعديل بحثك أو مرشحاتك للعثور على ما تبحث عنه.",
+    "noProductsAvailable": "لا توجد منتجات متاحة حالياً.",
+    "clearFilters": "مسح المرشحات",
+    "previous": "السابق",
+    "next": "التالي",
+    "showing": "عرض",
+    "to": "إلى",
+    "of": "من",
+    "results": "نتيجة"
+  },
+  "product": {
+    "card": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "quantity": "الكمية: {quantity}",
+      "partNumber": "رقم القطعة: {partNumber}",
+      "viewDetails": "عرض التفاصيل",
+      "buyNow": "اشتر الآن",
+      "outOfStock": "نفذت الكمية"
+    },
+    "details": {
+      "brand": "العلامة التجارية",
+      "partNumber": "رقم القطعة",
+      "category": "الفئة",
+      "quantity": "الكمية",
+      "price": "السعر",
+      "description": "الوصف",
+      "specifications": "المواصفات"
+    },
+    "order": {
+      "title": "اشتر الآن - الدفع عند الاستلام",
+      "productInfo": {
+        "available": "متاح: {quantity} في المخزون"
+      },
+      "form": {
+        "quantity": "الكمية *",
+        "quantityPlaceholder": "أدخل الكمية",
+        "maxAvailable": "الحد الأقصى: {quantity} متاح",
+        "fullName": "الاسم الكامل *",
+        "fullNamePlaceholder": "أدخل اسمك الكامل",
+        "phoneNumber": "رقم الهاتف *",
+        "phonePlaceholder": "أدخل رقم هاتفك",
+        "deliveryAddress": "عنوان التوصيل *",
+        "addressPlaceholder": "أدخل عنوان التوصيل الكامل"
+      },
+      "terms": {
+        "title": "شروط الدفع عند الاستلام:",
+        "payment": "• سيتم تحصيل الدفع عند التوصيل",
+        "delivery": "• التوصيل يستغرق عادة 2-5 أيام عمل",
+        "contact": "• سيتم الاتصال بك لتأكيد طلبك"
+      },
+      "buttons": {
+        "cancel": "إلغاء",
+        "placeOrder": "تقديم الطلب",
+        "placingOrder": "جاري تقديم الطلب..."
+      },
+      "validation": {
+        "fillAllFields": "يرجى ملء جميع الحقول المطلوبة",
+        "quantityMin": "يجب أن تكون الكمية 1 على الأقل",
+        "success": "تم تقديم الطلب بنجاح! سنتواصل معك قريباً للتوصيل."
+      }
+    }
+  },
+  "importRequest": {
+    "title": "طلب استيراد",
+    "subtitle": "لا تجد ما تبحث عنه؟ اطلب منا استيراده لك",
+    "form": {
+      "customerName": "اسم العميل",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "carMake": "ماركة السيارة",
+      "carModel": "موديل السيارة",
+      "carYear": "سنة السيارة",
+      "partName": "اسم القطعة",
+      "description": "الوصف",
+      "submit": "تقديم الطلب",
+      "success": "تم تقديم طلب الاستيراد بنجاح!",
+      "error": "فشل في تقديم الطلب. يرجى المحاولة مرة أخرى."
+    }
+  },
+  "admin": {
+    "redirect": "إعادة توجيه إلى لوحة الإدارة...",
+    "checkingAuth": "التحقق من المصادقة...",
+    "login": {
+      "title": "تسجيل دخول الإدارة",
+      "subtitle": "سجل الدخول للوصول إلى لوحة الإدارة",
+      "email": "عنوان البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "signIn": "تسجيل الدخول",
+      "signingIn": "جاري تسجيل الدخول...",
+      "credentials": "بيانات الإدارة الافتراضية:",
+      "emailPlaceholder": "admin@hattabauto.com",
+      "passwordPlaceholder": "AdminPass123!"
+    },
+    "dashboard": {
+      "title": "لوحة الإدارة",
+      "welcome": "مرحباً بعودتك، {email}",
+      "logout": "تسجيل الخروج",
+      "stats": {
+        "totalProducts": "إجمالي المنتجات",
+        "importRequests": "طلبات الاستيراد",
+        "pendingRequests": "الطلبات المعلقة",
+        "cashOnDelivery": "طلبات الدفع عند الاستلام"
+      },
+      "quickActions": {
+        "title": "الإجراءات السريعة",
+        "addProduct": "إضافة منتج جديد",
+        "viewProducts": "عرض جميع المنتجات",
+        "viewRequests": "عرض طلبات الاستيراد",
+        "viewOrders": "عرض الطلبات"
+      }
+    },
+    "reports": {
+      "title": "التقارير والتحليلات",
+      "subtitle": "نظرة عامة على أداء النظام والمقاييس",
+      "backToDashboard": "العودة إلى لوحة الإدارة",
+      "loading": "جاري تحميل التقارير...",
+      "productStats": "إحصائيات المنتجات",
+      "importRequestStats": "إحصائيات طلبات الاستيراد",
+      "orderStats": "إحصائيات طلبات الدفع عند الاستلام",
+      "performanceMetrics": "مقاييس الأداء",
+      "totalProducts": "إجمالي المنتجات",
+      "activeProducts": "المنتجات النشطة",
+      "totalRequests": "إجمالي الطلبات",
+      "pending": "معلق",
+      "completed": "مكتمل",
+      "rejected": "مرفوض",
+      "totalOrders": "إجمالي الطلبات",
+      "processing": "قيد المعالجة",
+      "totalValue": "القيمة الإجمالية",
+      "avgProcessingTime": "متوسط وقت المعالجة",
+      "processingRate": "معدل المعالجة"
+    },
+    "orders": {
+      "title": "طلبات الدفع عند الاستلام",
+      "subtitle": "إدارة طلبات العملاء",
+      "status": "الحالة",
+      "customer": "العميل",
+      "product": "المنتج",
+      "quantity": "الكمية",
+      "total": "الإجمالي",
+      "date": "التاريخ",
+      "actions": "الإجراءات",
+      "updateStatus": "تحديث الحالة",
+      "noOrders": "لم يتم العثور على طلبات"
+    }
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "apply": "تطبيق",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا"
+  }
+} 

@@ -1,0 +1,235 @@
+{
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "importRequest": "Import Request",
+    "search": "Search car parts...",
+    "adminPanel": "Admin Panel",
+    "logout": "Logout"
+  },
+  "footer": {
+    "tagline": "Your trusted partner for importing high-quality car parts. We specialize in sourcing authentic automotive components from around the world, ensuring your vehicle gets the parts it deserves.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "email": "Email:",
+    "phone": "Phone:",
+    "copyright": "© 2025 Hattab Auto. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "home": {
+    "hero": {
+      "title": "Premium Car Parts",
+      "subtitle": "Import Specialists",
+      "description": "Your trusted partner for importing high-quality automotive components from around the world. We ensure your vehicle gets the authentic parts it deserves.",
+      "browseProducts": "Browse Products",
+      "requestImport": "Request Import"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "subtitle": "Quality Parts, Reliable Service",
+      "authenticParts": {
+        "title": "Authentic Parts",
+        "description": "All our parts are sourced directly from manufacturers and authorized dealers to ensure authenticity."
+      },
+      "fastImport": {
+        "title": "Fast Import",
+        "description": "Quick processing and shipping to get your parts to you as soon as possible."
+      },
+      "expertSupport": {
+        "title": "Expert Support",
+        "description": "Our team of automotive experts is here to help you find the right parts for your vehicle."
+      }
+    },
+    "featuredProducts": {
+      "title": "Featured Products",
+      "subtitle": "Check out our most popular car parts and components",
+      "viewAllProducts": "View All Products",
+      "noProducts": "No products available at the moment.",
+      "requestSpecificPart": "Request a specific part"
+    },
+    "cta": {
+      "title": "Can't find what you're looking for?",
+      "description": "Submit an import request and we'll source the specific car parts you need from our global network of suppliers.",
+      "submitRequest": "Submit Import Request"
+    }
+  },
+  "products": {
+    "title": "Car Parts & Components",
+    "subtitle": "Browse our extensive collection of automotive parts",
+    "filters": "Filters",
+    "clearAll": "Clear all",
+    "categories": "Categories",
+    "searchResults": "Showing {count} of {total} products",
+    "searchFor": "for \"{query}\"",
+    "searchIn": "in \"{category}\"",
+    "loading": "Loading...",
+    "noProductsFound": "No products found",
+    "noProductsDescription": "Try adjusting your search or filters to find what you're looking for.",
+    "noProductsAvailable": "No products are currently available.",
+    "clearFilters": "Clear filters",
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "results": "results"
+  },
+  "product": {
+    "card": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "quantity": "Qty: {quantity}",
+      "partNumber": "Part #: {partNumber}",
+      "viewDetails": "View Details",
+      "buyNow": "Buy Now",
+      "outOfStock": "Out of Stock"
+    },
+    "details": {
+      "brand": "Brand",
+      "partNumber": "Part Number",
+      "category": "Category",
+      "quantity": "Quantity",
+      "price": "Price",
+      "description": "Description",
+      "specifications": "Specifications"
+    },
+    "order": {
+      "title": "Buy Now - Cash on Delivery",
+      "productInfo": {
+        "available": "Available: {quantity} in stock"
+      },
+      "form": {
+        "quantity": "Quantity *",
+        "quantityPlaceholder": "Enter quantity",
+        "maxAvailable": "Max: {quantity} available",
+        "fullName": "Full Name *",
+        "fullNamePlaceholder": "Enter your full name",
+        "phoneNumber": "Phone Number *",
+        "phonePlaceholder": "Enter your phone number",
+        "deliveryAddress": "Delivery Address *",
+        "addressPlaceholder": "Enter your complete delivery address"
+      },
+      "terms": {
+        "title": "Cash on Delivery Terms:",
+        "payment": "• Payment will be collected upon delivery",
+        "delivery": "• Delivery typically takes 2-5 business days",
+        "contact": "• You will be contacted to confirm your order"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "placeOrder": "Place Order",
+        "placingOrder": "Placing Order..."
+      },
+      "validation": {
+        "fillAllFields": "Please fill in all required fields",
+        "quantityMin": "Quantity must be at least 1",
+        "success": "Order placed successfully! We will contact you soon for delivery."
+      }
+    }
+  },
+  "importRequest": {
+    "title": "Import Request",
+    "subtitle": "Can't find what you're looking for? Request us to import it for you",
+    "form": {
+      "customerName": "Customer Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "carMake": "Car Make",
+      "carModel": "Car Model",
+      "carYear": "Car Year",
+      "partName": "Part Name",
+      "description": "Description",
+      "submit": "Submit Request",
+      "success": "Import request submitted successfully!",
+      "error": "Failed to submit request. Please try again."
+    }
+  },
+  "admin": {
+    "redirect": "Redirecting to admin dashboard...",
+    "checkingAuth": "Checking authentication...",
+    "login": {
+      "title": "Admin Login",
+      "subtitle": "Sign in to access the admin panel",
+      "email": "Email address",
+      "password": "Password",
+      "signIn": "Sign in",
+      "signingIn": "Signing in...",
+      "credentials": "Default admin credentials:",
+      "emailPlaceholder": "admin@hattabauto.com",
+      "passwordPlaceholder": "AdminPass123!"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "welcome": "Welcome back, {email}",
+      "logout": "Logout",
+      "stats": {
+        "totalProducts": "Total Products",
+        "importRequests": "Import Requests",
+        "pendingRequests": "Pending Requests",
+        "cashOnDelivery": "Cash on Delivery Orders"
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "addProduct": "Add New Product",
+        "viewProducts": "View All Products",
+        "viewRequests": "View Import Requests",
+        "viewOrders": "View Orders"
+      }
+    },
+    "reports": {
+      "title": "Reports & Analytics",
+      "subtitle": "Overview of system performance and metrics",
+      "backToDashboard": "Back to Dashboard",
+      "loading": "Loading reports...",
+      "productStats": "Product Statistics",
+      "importRequestStats": "Import Request Statistics",
+      "orderStats": "Cash on Delivery Order Statistics",
+      "performanceMetrics": "Performance Metrics",
+      "totalProducts": "Total Products",
+      "activeProducts": "Active Products",
+      "totalRequests": "Total Requests",
+      "pending": "Pending",
+      "completed": "Completed",
+      "rejected": "Rejected",
+      "totalOrders": "Total Orders",
+      "processing": "Processing",
+      "totalValue": "Total Value",
+      "avgProcessingTime": "Avg Processing Time",
+      "processingRate": "Processing Rate"
+    },
+    "orders": {
+      "title": "Cash on Delivery Orders",
+      "subtitle": "Manage customer orders",
+      "status": "Status",
+      "customer": "Customer",
+      "product": "Product",
+      "quantity": "Quantity",
+      "total": "Total",
+      "date": "Date",
+      "actions": "Actions",
+      "updateStatus": "Update Status",
+      "noOrders": "No orders found"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "apply": "Apply",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  }
+} 

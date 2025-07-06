@@ -1,0 +1,235 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "products": "Produits",
+    "importRequest": "Demande d'Import",
+    "search": "Rechercher des pièces automobiles...",
+    "adminPanel": "Panneau Admin",
+    "logout": "Déconnexion"
+  },
+  "footer": {
+    "tagline": "Votre partenaire de confiance pour l'importation de pièces automobiles de haute qualité. Nous nous spécialisons dans l'approvisionnement de composants automobiles authentiques du monde entier, garantissant à votre véhicule les pièces qu'il mérite.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "email": "Email :",
+    "phone": "Téléphone :",
+    "copyright": "© 2025 Hattab Auto. Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions de Service"
+  },
+  "home": {
+    "hero": {
+      "title": "Pièces Automobiles Premium",
+      "subtitle": "Spécialistes d'Import",
+      "description": "Votre partenaire de confiance pour l'importation de composants automobiles de haute qualité du monde entier. Nous garantissons à votre véhicule les pièces authentiques qu'il mérite.",
+      "browseProducts": "Parcourir les Produits",
+      "requestImport": "Demander un Import"
+    },
+    "features": {
+      "title": "Pourquoi Nous Choisir",
+      "subtitle": "Pièces de Qualité, Service Fiable",
+      "authenticParts": {
+        "title": "Pièces Authentiques",
+        "description": "Toutes nos pièces sont directement approvisionnées auprès des fabricants et des concessionnaires autorisés pour garantir l'authenticité."
+      },
+      "fastImport": {
+        "title": "Import Rapide",
+        "description": "Traitement et expédition rapides pour vous livrer vos pièces le plus tôt possible."
+      },
+      "expertSupport": {
+        "title": "Support Expert",
+        "description": "Notre équipe d'experts automobiles est là pour vous aider à trouver les bonnes pièces pour votre véhicule."
+      }
+    },
+    "featuredProducts": {
+      "title": "Produits Vedettes",
+      "subtitle": "Découvrez nos pièces automobiles et composants les plus populaires",
+      "viewAllProducts": "Voir Tous les Produits",
+      "noProducts": "Aucun produit disponible pour le moment.",
+      "requestSpecificPart": "Demander une pièce spécifique"
+    },
+    "cta": {
+      "title": "Vous ne trouvez pas ce que vous cherchez ?",
+      "description": "Soumettez une demande d'import et nous nous approvisionnerons les pièces automobiles spécifiques dont vous avez besoin auprès de notre réseau mondial de fournisseurs.",
+      "submitRequest": "Soumettre une Demande d'Import"
+    }
+  },
+  "products": {
+    "title": "Pièces et Composants Automobiles",
+    "subtitle": "Parcourez notre vaste collection de pièces automobiles",
+    "filters": "Filtres",
+    "clearAll": "Tout effacer",
+    "categories": "Catégories",
+    "searchResults": "Affichage de {count} sur {total} produits",
+    "searchFor": "pour \"{query}\"",
+    "searchIn": "dans \"{category}\"",
+    "loading": "Chargement...",
+    "noProductsFound": "Aucun produit trouvé",
+    "noProductsDescription": "Essayez d'ajuster votre recherche ou vos filtres pour trouver ce que vous cherchez.",
+    "noProductsAvailable": "Aucun produit n'est actuellement disponible.",
+    "clearFilters": "Effacer les filtres",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "showing": "Affichage",
+    "to": "à",
+    "of": "sur",
+    "results": "résultats"
+  },
+  "product": {
+    "card": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "quantity": "Qté : {quantity}",
+      "partNumber": "N° Pièce : {partNumber}",
+      "viewDetails": "Voir les Détails",
+      "buyNow": "Acheter Maintenant",
+      "outOfStock": "Rupture de Stock"
+    },
+    "details": {
+      "brand": "Marque",
+      "partNumber": "Numéro de Pièce",
+      "category": "Catégorie",
+      "quantity": "Quantité",
+      "price": "Prix",
+      "description": "Description",
+      "specifications": "Spécifications"
+    },
+    "order": {
+      "title": "Acheter Maintenant - Paiement à la Livraison",
+      "productInfo": {
+        "available": "Disponible : {quantity} en stock"
+      },
+      "form": {
+        "quantity": "Quantité *",
+        "quantityPlaceholder": "Entrez la quantité",
+        "maxAvailable": "Max : {quantity} disponible",
+        "fullName": "Nom Complet *",
+        "fullNamePlaceholder": "Entrez votre nom complet",
+        "phoneNumber": "Numéro de Téléphone *",
+        "phonePlaceholder": "Entrez votre numéro de téléphone",
+        "deliveryAddress": "Adresse de Livraison *",
+        "addressPlaceholder": "Entrez votre adresse de livraison complète"
+      },
+      "terms": {
+        "title": "Conditions de Paiement à la Livraison :",
+        "payment": "• Le paiement sera collecté lors de la livraison",
+        "delivery": "• La livraison prend généralement 2-5 jours ouvrables",
+        "contact": "• Vous serez contacté pour confirmer votre commande"
+      },
+      "buttons": {
+        "cancel": "Annuler",
+        "placeOrder": "Passer la Commande",
+        "placingOrder": "Passage de Commande..."
+      },
+      "validation": {
+        "fillAllFields": "Veuillez remplir tous les champs requis",
+        "quantityMin": "La quantité doit être d'au moins 1",
+        "success": "Commande passée avec succès ! Nous vous contacterons bientôt pour la livraison."
+      }
+    }
+  },
+  "importRequest": {
+    "title": "Demande d'Import",
+    "subtitle": "Vous ne trouvez pas ce que vous cherchez ? Demandez-nous de l'importer pour vous",
+    "form": {
+      "customerName": "Nom du Client",
+      "email": "Email",
+      "phone": "Numéro de Téléphone",
+      "carMake": "Marque de Voiture",
+      "carModel": "Modèle de Voiture",
+      "carYear": "Année de Voiture",
+      "partName": "Nom de la Pièce",
+      "description": "Description",
+      "submit": "Soumettre la Demande",
+      "success": "Demande d'import soumise avec succès !",
+      "error": "Échec de la soumission de la demande. Veuillez réessayer."
+    }
+  },
+  "admin": {
+    "redirect": "Redirection vers le tableau de bord admin...",
+    "checkingAuth": "Vérification de l'authentification...",
+    "login": {
+      "title": "Connexion Admin",
+      "subtitle": "Connectez-vous pour accéder au panneau admin",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "signIn": "Se connecter",
+      "signingIn": "Connexion en cours...",
+      "credentials": "Identifiants admin par défaut :",
+      "emailPlaceholder": "admin@hattabauto.com",
+      "passwordPlaceholder": "AdminPass123!"
+    },
+    "dashboard": {
+      "title": "Tableau de Bord Admin",
+      "welcome": "Bon retour, {email}",
+      "logout": "Déconnexion",
+      "stats": {
+        "totalProducts": "Total Produits",
+        "importRequests": "Demandes d'Import",
+        "pendingRequests": "Demandes en Attente",
+        "cashOnDelivery": "Commandes Paiement à la Livraison"
+      },
+      "quickActions": {
+        "title": "Actions Rapides",
+        "addProduct": "Ajouter un Nouveau Produit",
+        "viewProducts": "Voir Tous les Produits",
+        "viewRequests": "Voir les Demandes d'Import",
+        "viewOrders": "Voir les Commandes"
+      }
+    },
+    "reports": {
+      "title": "Rapports et Analyses",
+      "subtitle": "Aperçu des performances et métriques du système",
+      "backToDashboard": "Retour au Tableau de Bord",
+      "loading": "Chargement des rapports...",
+      "productStats": "Statistiques des Produits",
+      "importRequestStats": "Statistiques des Demandes d'Import",
+      "orderStats": "Statistiques des Commandes Paiement à la Livraison",
+      "performanceMetrics": "Métriques de Performance",
+      "totalProducts": "Total Produits",
+      "activeProducts": "Produits Actifs",
+      "totalRequests": "Total Demandes",
+      "pending": "En Attente",
+      "completed": "Terminé",
+      "rejected": "Rejeté",
+      "totalOrders": "Total Commandes",
+      "processing": "En Traitement",
+      "totalValue": "Valeur Totale",
+      "avgProcessingTime": "Temps de Traitement Moyen",
+      "processingRate": "Taux de Traitement"
+    },
+    "orders": {
+      "title": "Commandes Paiement à la Livraison",
+      "subtitle": "Gérer les commandes clients",
+      "status": "Statut",
+      "customer": "Client",
+      "product": "Produit",
+      "quantity": "Quantité",
+      "total": "Total",
+      "date": "Date",
+      "actions": "Actions",
+      "updateStatus": "Mettre à Jour le Statut",
+      "noOrders": "Aucune commande trouvée"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "clear": "Effacer",
+    "apply": "Appliquer",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non"
+  }
+} 

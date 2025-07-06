@@ -1,0 +1,75 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  role      String @default("ADMIN")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  image       String?
+  quantity    Int      @default(0)
+  price       Float
+  category    String?
+  brand       String?
+  partNumber  String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("products")
+}
+
+model ImportRequest {
+  id          String            @id @default(cuid())
+  customerName String
+  email       String
+  phone       String?
+  carMake     String
+  carModel    String
+  carYear     Int
+  partName    String
+  description String?
+  status      String @default("PENDING")
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@map("import_requests")
+}
+
+model Order {
+  id           String   @id @default(cuid())
+  productId    String
+  productName  String
+  customerName String
+  address      String
+  phone        String
+  quantity     Int      @default(1)
+  status       String   @default("PENDING")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("orders")
+}
+
+// Note: SQLite doesn't support enums, so we use strings with validation in the app
+// UserRole: "ADMIN" | "CUSTOMER"
+// ImportStatus: "PENDING" | "PROCESSING" | "COMPLETED" | "REJECTED" 
