@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true
   },
   experimental: {
-    outputFileTracingRoot: undefined,
+    // outputFileTracingRoot: undefined, // Removed for Next.js 15 compatibility
   },
   async headers() {
     return [

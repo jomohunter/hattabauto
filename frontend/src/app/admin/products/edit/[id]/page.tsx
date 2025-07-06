@@ -95,7 +95,7 @@ const EditProductPage: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (!formData.name.trim() || !formData.partNumber.trim()) {
+    if (!formData.name?.trim() || !formData.partNumber?.trim()) {
       toast.error('Name and Part Number are required');
       return;
     }
