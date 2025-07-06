@@ -23,8 +23,8 @@
 ### Step 3: Set Environment Variables
 In Railway dashboard, add these environment variables:
 ```env
-DATABASE_URL=your_railway_postgres_url
-JWT_SECRET=your-super-secret-jwt-key-change-this
+DATABASE_URL=postgresql://postgres:RhqLkqUioJZRbIQTPkjuxdTFZfcBpFLy@postgres.railway.internal:5432/railway
+JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30
 NODE_ENV=production
 PORT=5002
 ```
