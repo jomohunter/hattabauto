@@ -15,6 +15,19 @@ let currentLocale: Locale = defaultLocale;
 
 // Translation function with interpolation support
 export function t(key: string, params?: Record<string, any>): string {
+  // Safety check for SSR
+  if (typeof window === 'undefined') {
+    // During SSR, return a simple fallback
+    const fallbackMap: Record<string, string> = {
+      'error.pageNotFound.title': 'Page Not Found',
+      'error.pageNotFound.description': 'The page you\'re looking for doesn\'t exist or has been moved.',
+      'error.pageNotFound.goHome': 'Go Home',
+      'error.pageNotFound.browseProducts': 'Browse Products',
+      'error.pageNotFound.requestImport': 'Request Import'
+    };
+    return fallbackMap[key] || key;
+  }
+
   const keys = key.split('.');
   let value: any = messages[currentLocale];
   

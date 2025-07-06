@@ -197,17 +197,7 @@
       "totalValue": "Valeur Totale",
       "avgProcessingTime": "Temps de Traitement Moyen",
       "processingRate": "Taux de Traitement"
-    }
-  },
-  "error": {
-    "pageNotFound": {
-      "title": "Page non trouvée",
-      "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
-      "goHome": "Accueil",
-      "browseProducts": "Parcourir les produits",
-      "requestImport": "Demande d'importation"
-    }
-  },
+    },
     "orders": {
       "title": "Commandes Paiement à la Livraison",
       "subtitle": "Gérer les commandes clients",
@@ -220,6 +210,15 @@
       "actions": "Actions",
       "updateStatus": "Mettre à Jour le Statut",
       "noOrders": "Aucune commande trouvée"
+    }
+  },
+  "error": {
+    "pageNotFound": {
+      "title": "Page non trouvée",
+      "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+      "goHome": "Accueil",
+      "browseProducts": "Parcourir les produits",
+      "requestImport": "Demande d'importation"
     }
   },
   "common": {

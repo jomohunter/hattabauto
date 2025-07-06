@@ -8,7 +8,7 @@ const GlobalErrorPage: React.FC<{
   reset: () => void;
 }> = ({ error, reset }) => {
   return (
-    <html>
+    <html suppressHydrationWarning>
       <body>
         <div className="min-h-screen flex items-center justify-center bg-gray-50">
           <div className="max-w-md w-full text-center">
@@ -20,15 +20,6 @@ const GlobalErrorPage: React.FC<{
               <p className="text-gray-600 mb-4">
                 We encountered an unexpected error. Please try again.
               </p>
-              {process.env.NODE_ENV === 'development' && (
-                <details className="text-left text-sm text-gray-500 bg-gray-100 p-4 rounded-md">
-                  <summary className="cursor-pointer font-medium">Error Details</summary>
-                  <pre className="mt-2 whitespace-pre-wrap">{error.message}</pre>
-                  {error.digest && (
-                    <p className="mt-2 text-xs">Error ID: {error.digest}</p>
-                  )}
-                </details>
-              )}
             </div>
             
             <div className="space-y-4">
