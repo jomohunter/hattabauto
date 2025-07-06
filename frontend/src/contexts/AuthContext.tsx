@@ -55,11 +55,13 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   // Add a function to validate token on page load
   const validateToken = async () => {
+    if (typeof window === 'undefined') return;
+    
     const token = Cookies.get('auth-token');
-    if (token && !user && typeof window !== 'undefined') {
+    if (token && !user) {
       try {
         // Try to make a request to validate the token
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5002/api'}/products/admin/all`, {
+        const response = await fetch('https://hattabauto-production.up.railway.app/api/products/admin/all', {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -78,7 +80,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   };
 
   useEffect(() => {
-    validateToken();
+    if (typeof window !== 'undefined') {
+      validateToken();
+    }
   }, [user]);
 
   const login = async (credentials: LoginDTO): Promise<boolean> => {

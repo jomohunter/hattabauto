@@ -11,7 +11,9 @@ const LanguageSelector: React.FC = () => {
     setLocale(locale as any);
     setIsOpen(false);
     // Refresh the page to ensure all translations update properly
-    window.location.reload();
+    if (typeof window !== 'undefined') {
+      window.location.reload();
+    }
   };
 
   return (

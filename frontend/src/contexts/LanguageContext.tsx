@@ -34,21 +34,26 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
 
   useEffect(() => {
     // Load saved locale from localStorage
-    const savedLocale = localStorage.getItem('locale') as Locale;
-    if (savedLocale && locales.includes(savedLocale)) {
-      setCurrentLocale(savedLocale);
-      setLocale(savedLocale);
+    if (typeof window !== 'undefined') {
+      const savedLocale = localStorage.getItem('locale') as Locale;
+      if (savedLocale && locales.includes(savedLocale)) {
+        setCurrentLocale(savedLocale);
+        setLocale(savedLocale);
+      }
     }
   }, []);
 
   const handleSetLocale = (locale: Locale) => {
     setCurrentLocale(locale);
     setLocale(locale);
-    localStorage.setItem('locale', locale);
     
-    // Update document direction for RTL languages
-    document.documentElement.dir = getLocaleDirection(locale);
-    document.documentElement.lang = locale;
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('locale', locale);
+      
+      // Update document direction for RTL languages
+      document.documentElement.dir = getLocaleDirection(locale);
+      document.documentElement.lang = locale;
+    }
   };
 
   const direction = getLocaleDirection(currentLocale);

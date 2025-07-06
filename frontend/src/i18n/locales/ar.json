@@ -197,7 +197,17 @@
       "totalValue": "القيمة الإجمالية",
       "avgProcessingTime": "متوسط وقت المعالجة",
       "processingRate": "معدل المعالجة"
-    },
+    }
+  },
+  "error": {
+    "pageNotFound": {
+      "title": "الصفحة غير موجودة",
+      "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+      "goHome": "الرئيسية",
+      "browseProducts": "تصفح المنتجات",
+      "requestImport": "طلب استيراد"
+    }
+  },
     "orders": {
       "title": "طلبات الدفع عند الاستلام",
       "subtitle": "إدارة طلبات العملاء",

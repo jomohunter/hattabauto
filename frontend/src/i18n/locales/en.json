@@ -197,7 +197,17 @@
       "totalValue": "Total Value",
       "avgProcessingTime": "Avg Processing Time",
       "processingRate": "Processing Rate"
-    },
+    }
+  },
+  "error": {
+    "pageNotFound": {
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist or has been moved.",
+      "goHome": "Go Home",
+      "browseProducts": "Browse Products",
+      "requestImport": "Request Import"
+    }
+  }
     "orders": {
       "title": "Cash on Delivery Orders",
       "subtitle": "Manage customer orders",
