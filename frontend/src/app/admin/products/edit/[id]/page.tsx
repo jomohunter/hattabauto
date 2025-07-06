@@ -100,12 +100,12 @@ const EditProductPage: React.FC = () => {
       return;
     }
 
-    if (formData.price <= 0) {
+    if ((formData.price || 0) <= 0) {
       toast.error('Price must be greater than 0');
       return;
     }
 
-    if (formData.quantity < 0) {
+    if ((formData.quantity || 0) < 0) {
       toast.error('Quantity cannot be negative');
       return;
     }
@@ -194,7 +194,7 @@ const EditProductPage: React.FC = () => {
                       type="text"
                       id="name"
                       name="name"
-                      value={formData.name}
+                      value={formData.name || ''}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
                       required
@@ -209,7 +209,7 @@ const EditProductPage: React.FC = () => {
                       type="text"
                       id="partNumber"
                       name="partNumber"
-                      value={formData.partNumber}
+                      value={formData.partNumber || ''}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
                       required
@@ -223,7 +223,7 @@ const EditProductPage: React.FC = () => {
                     <textarea
                       id="description"
                       name="description"
-                      value={formData.description}
+                      value={formData.description || ''}
                       onChange={handleInputChange}
                       rows={3}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
@@ -248,7 +248,7 @@ const EditProductPage: React.FC = () => {
                         type="number"
                         id="price"
                         name="price"
-                        value={formData.price}
+                        value={formData.price || ''}
                         onChange={handleInputChange}
                         min="0"
                         step="0.01"
@@ -266,7 +266,7 @@ const EditProductPage: React.FC = () => {
                       type="number"
                       id="quantity"
                       name="quantity"
-                      value={formData.quantity}
+                      value={formData.quantity || ''}
                       onChange={handleInputChange}
                       min="0"
                       className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
@@ -287,7 +287,7 @@ const EditProductPage: React.FC = () => {
                       type="text"
                       id="category"
                       name="category"
-                      value={formData.category}
+                      value={formData.category || ''}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
                     />
@@ -301,7 +301,7 @@ const EditProductPage: React.FC = () => {
                       type="text"
                       id="brand"
                       name="brand"
-                      value={formData.brand}
+                      value={formData.brand || ''}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
                     />
