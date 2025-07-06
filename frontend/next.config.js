@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'standalone',
   images: {
-    domains: ['localhost', 'your-railway-domain.railway.app'],
+    domains: ['localhost', 'hattabauto-production.up.railway.app'],
     unoptimized: true
   },
   experimental: {

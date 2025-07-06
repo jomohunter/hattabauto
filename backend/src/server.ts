@@ -31,11 +31,10 @@ app.use(helmet({
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://your-netlify-domain.netlify.app',
-        'https://your-netlify-domain.com',
-        'https://hattabauto.netlify.app',
-        'https://hattabauto.com',
         'https://hattabauto.vercel.app',
+        'https://hattabauto-git-master-jomohunter.vercel.app',
+        'https://hattabauto-jomohunter.vercel.app',
+        'https://hattabauto.com',
         'https://hattabauto-production.up.railway.app'
       ]
     : ['http://localhost:3000', 'http://localhost:3001'],

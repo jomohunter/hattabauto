@@ -49,7 +49,7 @@ export const getImageUrl = (imagePath?: string): string => {
   
   if (imagePath.startsWith('http')) return imagePath;
   
-  const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5002';
+  const baseUrl = 'https://hattabauto-production.up.railway.app';
   return `${baseUrl}${imagePath}`;
 };
 

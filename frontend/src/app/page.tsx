@@ -17,6 +17,8 @@ const HomePage: React.FC = () => {
 
   useEffect(() => {
     const loadFeaturedProducts = async () => {
+      if (typeof window === 'undefined') return;
+      
       try {
         const response = await productsApi.getProducts({ limit: 8 });
         setFeaturedProducts(response.products);

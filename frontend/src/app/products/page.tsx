@@ -37,6 +37,8 @@ const ProductsPage: React.FC = () => {
   }, 300);
 
   const loadProducts = async (params: SearchParams = {}) => {
+    if (typeof window === 'undefined') return;
+    
     try {
       setIsLoading(true);
       const response = await productsApi.getProducts({
@@ -55,6 +57,8 @@ const ProductsPage: React.FC = () => {
   };
 
   const loadCategories = async () => {
+    if (typeof window === 'undefined') return;
+    
     try {
       const response = await productsApi.getCategories();
       setCategories(response);
@@ -64,6 +68,8 @@ const ProductsPage: React.FC = () => {
   };
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     loadProducts();
     loadCategories();
   }, [searchParams]);

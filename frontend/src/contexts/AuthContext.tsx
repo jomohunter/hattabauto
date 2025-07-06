@@ -56,7 +56,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   // Add a function to validate token on page load
   const validateToken = async () => {
     const token = Cookies.get('auth-token');
-    if (token && !user) {
+    if (token && !user && typeof window !== 'undefined') {
       try {
         // Try to make a request to validate the token
         const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5002/api'}/products/admin/all`, {
